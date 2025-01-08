@@ -21,14 +21,16 @@
     width: 100%;
 }
 
-.nav {}
+.nav {
+}
 
 .nav__list {
     display: flex;
     gap: 4vh 40px;
 }
 
-.nav__item {}
+.nav__item {
+}
 
 .nav__link {
     display: block;
@@ -47,7 +49,6 @@
     height: 34px;
     background: var(--accent-color);
     border-radius: 50%;
-
     opacity: 0;
     transition: var(--transition);
 }
@@ -112,8 +113,6 @@
     padding: 50px 0 140px;
 }
 
-
-
 .hero {
     padding: 50px 0 140px;
 }
@@ -134,7 +133,6 @@
     text-transform: uppercase;
     line-height: 1.6;
     margin-bottom: 20px;
-
     display: flex;
     flex-wrap: wrap;
 }
@@ -219,7 +217,6 @@
     inset: 5px;
     border-radius: 50%;
     border: 1px solid var(--accent-color);
-
     opacity: 0;
     transition: var(--transition);
 }
@@ -227,3 +224,4 @@
 .hero__img-button:hover::before {
     opacity: 1;
 }
+
