@@ -725,7 +725,7 @@
     content: '';
     position: absolute;
     inset: 0;
-    background: url("/img/icons/check.svg") 50% 50% no-repeat;
+    background: url("img/icons/check.svg") 50% 50% no-repeat;
     opacity: 0;
     transition: var(--transition);
 }
