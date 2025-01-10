@@ -622,7 +622,7 @@
 
 .contact {
     padding: 140px 0;
-    background: url("..img/decor/bg-contact.png") 50% 0% / cover no-repeat;
+    background: url("../img/decor/bg-contact.png") 50% 0% / cover no-repeat;
 }
 
 .contact__inner {
@@ -633,7 +633,7 @@
 }
 
 .contact__inner::before {
-    content: url("..img/decor/berries.png");
+    content: url("../img/decor/berries.png");
     position: absolute;
     top: -4%;
     left: 0;
@@ -645,7 +645,6 @@
     top: 4%;
     right: 0;
 }
-
 .contact__img img {
     width: 100%;
     filter: drop-shadow(0px 4px 30px #c6b0a14d);
